@@ -22,6 +22,10 @@ function loadWinningTicketsTable() {
   for (let ticket of winningTickets) {
     buildTicketRow(tablebody, ticket);
   }
+  //let numTickets = winningTickets.length;
+  // for (let i=0; i < numTickets; i++){
+  //let ticket = winningTickets[i];
+  //}
 }
 
 function buildTicketRow(tbody, ticket) {
